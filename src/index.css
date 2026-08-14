@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  ::selection {
+    background-color: #FF4D00;
+    color: #000000;
+  }
+
+  /* Custom subtle dark scrollbars */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #141414;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2A2A2A;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF4D00;
+  }
+}

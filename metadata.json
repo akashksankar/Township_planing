@@ -1,0 +1,6 @@
+{
+  "name": "Township Planning Maker",
+  "description": "A 2D civil and architectural township planning tool for conceptual site planning, roads, plot subdivisions, zoning, infrastructure, dimensions, and A4 PDF/SVG exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
